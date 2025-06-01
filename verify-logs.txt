@@ -1,0 +1,112 @@
+intellij-platform-plugin-template $ ./gradlew verifyPlugin
+Reusing configuration cache.
+
+> Task :verifyPlugin
+Starting the IntelliJ Plugin Verifier 1.386
+Verification reports directory: /Users/zachtang/programming/intellij-platform-plugin-template/build/reports/pluginVerifier
+2025-05-31T20:33:59 [main] INFO  verification - Reading IDE /Users/zachtang/.gradle/caches/8.13/transforms/b06c70c25c47f0c579be99a159cdbe92/transformed/ideaIC-252.18003.27-aarch64
+2025-05-31T20:33:59 [main] INFO  c.j.p.options.OptionsParser - Reading IDE from /Users/zachtang/.gradle/caches/8.13/transforms/b06c70c25c47f0c579be99a159cdbe92/transformed/ideaIC-252.18003.27-aarch64
+2025-05-31T20:33:59 [main] INFO  c.j.p.options.OptionsParser - Using Java runtime from /Users/zachtang/.gradle/caches/8.13/transforms/856d5bdcf12136d1c78a99eadf07dc3c/transformed/ideaIC-2025.1.1-aarch64/jbr/Contents/Home
+2025-05-31T20:33:59 [main] INFO  verification - Reading IDE /Users/zachtang/.gradle/caches/8.13/transforms/04f03157e2580c153ffab0adb993be4c/transformed/ideaIC-251.26094.98-aarch64
+2025-05-31T20:33:59 [main] INFO  c.j.p.options.OptionsParser - Reading IDE from /Users/zachtang/.gradle/caches/8.13/transforms/04f03157e2580c153ffab0adb993be4c/transformed/ideaIC-251.26094.98-aarch64
+2025-05-31T20:33:59 [main] INFO  c.j.p.options.OptionsParser - Using Java runtime from /Users/zachtang/.gradle/caches/8.13/transforms/856d5bdcf12136d1c78a99eadf07dc3c/transformed/ideaIC-2025.1.1-aarch64/jbr/Contents/Home
+2025-05-31T20:33:59 [main] INFO  verification - Reading plugin to check from /Users/zachtang/programming/intellij-platform-plugin-template/build/distributions/IntelliJ Platform Plugin Template-2.1.0.zip
+2025-05-31T20:34:02 [main] INFO  verification - Task check-plugin parameters:
+Scheduled verifications (2):
+android.template.helper:2.1.0 against IC-252.18003.27, android.template.helper:2.1.0 against IC-251.26094.98
+
+2025-05-31T20:34:03 [verifier_2] WARN  c.j.p.s.i.r.LayoutComponentsProvider - Layout component 'intellij.android.gradle.declarative.lang.sync' has some nonexistent 'classPath' elements: 'plugins/android-gradle-declarative-lang-ide/lib/modules/intellij.android.gradle.declarative.lang.sync.jar'
+Layout component 'intellij.json' has some nonexistent 'classPath' elements: 'plugins/json/lib/modules/intellij.json.jar'
+Layout component 'intellij.qodana.sarif' has some nonexistent 'classPath' elements: 'plugins/qodana/lib/modules/intellij.qodana.sarif.jar'
+Layout component 'intellij.vcs.git/localHistory' has some nonexistent 'classPath' elements: 'plugins/vcs-git/lib/modules/intellij.vcs.git/localHistory.jar'
+Layout component 'intellij.vcs.github' has some nonexistent 'classPath' elements: 'plugins/vcs-github-IU/lib/modules/intellij.vcs.github.jar'
+Layout component 'intellij.yaml' has some nonexistent 'classPath' elements: 'plugins/yaml/lib/modules/intellij.yaml.jar'
+Layout component 'org.jetbrains.plugins.emojipicker' has some nonexistent 'classPath' elements: 'plugins/emojipicker/lib/emojipicker.jar'
+2025-05-31T20:34:03 [verifier_2] WARN  c.j.p.s.i.r.LayoutComponentsProvider - Layout component 'intellij.android.gradle.declarative.lang.sync' has some nonexistent 'classPath' elements: 'plugins/android-gradle-declarative-lang-ide/lib/modules/intellij.android.gradle.declarative.lang.sync.jar'
+Layout component 'intellij.json' has some nonexistent 'classPath' elements: 'plugins/json/lib/modules/intellij.json.jar'
+Layout component 'intellij.qodana.sarif' has some nonexistent 'classPath' elements: 'plugins/qodana/lib/modules/intellij.qodana.sarif.jar'
+Layout component 'intellij.vcs.git/localHistory' has some nonexistent 'classPath' elements: 'plugins/vcs-git/lib/modules/intellij.vcs.git/localHistory.jar'
+Layout component 'intellij.vcs.github' has some nonexistent 'classPath' elements: 'plugins/vcs-github-IU/lib/modules/intellij.vcs.github.jar'
+Layout component 'intellij.yaml' has some nonexistent 'classPath' elements: 'plugins/yaml/lib/modules/intellij.yaml.jar'
+Layout component 'org.jetbrains.plugins.emojipicker' has some nonexistent 'classPath' elements: 'plugins/emojipicker/lib/emojipicker.jar'
+2025-05-31T20:34:03 [verifier_1] WARN  c.j.p.s.i.r.LayoutComponentsProvider - Layout component 'intellij.android.gradle.declarative.lang.sync' has some nonexistent 'classPath' elements: 'plugins/android-gradle-declarative-lang-ide/lib/modules/intellij.android.gradle.declarative.lang.sync.jar'
+Layout component 'intellij.driver.client' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.driver.client.jar'
+Layout component 'intellij.driver.impl' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.driver.impl.jar'
+Layout component 'intellij.driver.model' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.driver.model.jar'
+Layout component 'intellij.java.debugger.impl.shared' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.debugger.impl.shared.jar'
+Layout component 'intellij.java.execution.impl.shared' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.execution.impl.shared.jar'
+Layout component 'intellij.java.frontback.impl' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.frontback.impl.jar'
+Layout component 'intellij.java.frontback.psi' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.frontback.psi.jar'
+Layout component 'intellij.java.frontback.psi.impl' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.frontback.psi.impl.jar'
+Layout component 'intellij.java.psi' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.psi.jar'
+Layout component 'intellij.java.psi.impl' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.psi.impl.jar'
+Layout component 'intellij.java.syntax' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.syntax.jar'
+Layout component 'intellij.json' has some nonexistent 'classPath' elements: 'plugins/json/lib/modules/intellij.json.jar'
+Layout component 'intellij.markdown' has some nonexistent 'classPath' elements: 'plugins/markdown/lib/modules/intellij.markdown.jar'
+Layout component 'intellij.platform.debugger.impl.rpc' has some nonexistent 'classPath' elements: 'lib/modules/intellij.platform.debugger.impl.rpc.jar'
+Layout component 'intellij.platform.debugger.impl.shared' has some nonexistent 'classPath' elements: 'lib/modules/intellij.platform.debugger.impl.shared.jar'
+Layout component 'intellij.platform.eel.impl' has some nonexistent 'classPath' elements: 'lib/modules/intellij.platform.eel.impl.jar'
+Layout component 'intellij.platform.find' has some nonexistent 'classPath' elements: 'lib/modules/intellij.platform.find.jar'
+Layout component 'intellij.properties' has some nonexistent 'classPath' elements: 'plugins/properties/lib/modules/intellij.properties.jar'
+Layout component 'intellij.properties.psi' has some nonexistent 'classPath' elements: 'plugins/properties/lib/modules/intellij.properties.psi.jar'
+Layout component 'intellij.qodana.sarif' has some nonexistent 'classPath' elements: 'plugins/qodana/lib/modules/intellij.qodana.sarif.jar'
+Layout component 'intellij.toml.core' has some nonexistent 'classPath' elements: 'plugins/toml/lib/modules/intellij.toml.core.jar'
+Layout component 'intellij.vcs.git.shared' has some nonexistent 'classPath' elements: 'plugins/vcs-git/lib/modules/intellij.vcs.git.shared.jar'
+Layout component 'intellij.vcs.git/localHistory' has some nonexistent 'classPath' elements: 'plugins/vcs-git/lib/modules/intellij.vcs.git/localHistory.jar'
+Layout component 'intellij.vcs.github' has some nonexistent 'classPath' elements: 'plugins/vcs-github-IU/lib/modules/intellij.vcs.github.jar'
+Layout component 'intellij.vcs.gitlab' has some nonexistent 'classPath' elements: 'plugins/vcs-gitlab-IU/lib/modules/intellij.vcs.gitlab.jar'
+Layout component 'intellij.yaml' has some nonexistent 'classPath' elements: 'plugins/yaml/lib/modules/intellij.yaml.jar'
+2025-05-31T20:34:03 [verifier_1] WARN  c.j.p.s.i.r.LayoutComponentsProvider - Layout component 'intellij.android.gradle.declarative.lang.sync' has some nonexistent 'classPath' elements: 'plugins/android-gradle-declarative-lang-ide/lib/modules/intellij.android.gradle.declarative.lang.sync.jar'
+Layout component 'intellij.driver.client' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.driver.client.jar'
+Layout component 'intellij.driver.impl' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.driver.impl.jar'
+Layout component 'intellij.driver.model' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.driver.model.jar'
+Layout component 'intellij.java.debugger.impl.shared' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.debugger.impl.shared.jar'
+Layout component 'intellij.java.execution.impl.shared' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.execution.impl.shared.jar'
+Layout component 'intellij.java.frontback.impl' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.frontback.impl.jar'
+Layout component 'intellij.java.frontback.psi' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.frontback.psi.jar'
+Layout component 'intellij.java.frontback.psi.impl' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.frontback.psi.impl.jar'
+Layout component 'intellij.java.psi' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.psi.jar'
+Layout component 'intellij.java.psi.impl' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.psi.impl.jar'
+Layout component 'intellij.java.syntax' has some nonexistent 'classPath' elements: 'plugins/java/lib/modules/intellij.java.syntax.jar'
+Layout component 'intellij.json' has some nonexistent 'classPath' elements: 'plugins/json/lib/modules/intellij.json.jar'
+Layout component 'intellij.markdown' has some nonexistent 'classPath' elements: 'plugins/markdown/lib/modules/intellij.markdown.jar'
+Layout component 'intellij.platform.debugger.impl.rpc' has some nonexistent 'classPath' elements: 'lib/modules/intellij.platform.debugger.impl.rpc.jar'
+Layout component 'intellij.platform.debugger.impl.shared' has some nonexistent 'classPath' elements: 'lib/modules/intellij.platform.debugger.impl.shared.jar'
+Layout component 'intellij.platform.eel.impl' has some nonexistent 'classPath' elements: 'lib/modules/intellij.platform.eel.impl.jar'
+Layout component 'intellij.platform.find' has some nonexistent 'classPath' elements: 'lib/modules/intellij.platform.find.jar'
+Layout component 'intellij.properties' has some nonexistent 'classPath' elements: 'plugins/properties/lib/modules/intellij.properties.jar'
+Layout component 'intellij.properties.psi' has some nonexistent 'classPath' elements: 'plugins/properties/lib/modules/intellij.properties.psi.jar'
+Layout component 'intellij.qodana.sarif' has some nonexistent 'classPath' elements: 'plugins/qodana/lib/modules/intellij.qodana.sarif.jar'
+Layout component 'intellij.toml.core' has some nonexistent 'classPath' elements: 'plugins/toml/lib/modules/intellij.toml.core.jar'
+Layout component 'intellij.vcs.git.shared' has some nonexistent 'classPath' elements: 'plugins/vcs-git/lib/modules/intellij.vcs.git.shared.jar'
+Layout component 'intellij.vcs.git/localHistory' has some nonexistent 'classPath' elements: 'plugins/vcs-git/lib/modules/intellij.vcs.git/localHistory.jar'
+Layout component 'intellij.vcs.github' has some nonexistent 'classPath' elements: 'plugins/vcs-github-IU/lib/modules/intellij.vcs.github.jar'
+Layout component 'intellij.vcs.gitlab' has some nonexistent 'classPath' elements: 'plugins/vcs-gitlab-IU/lib/modules/intellij.vcs.gitlab.jar'
+Layout component 'intellij.yaml' has some nonexistent 'classPath' elements: 'plugins/yaml/lib/modules/intellij.yaml.jar'
+2025-05-31T20:34:51 [main] INFO  verification - Finished 1 of 2 verifications (in 49.2 s): IC-252.18003.27 against android.template.helper:2.1.0: Compatible
+2025-05-31T20:34:54 [main] INFO  verification - Finished 2 of 2 verifications (in 52.0 s): IC-251.26094.98 against android.template.helper:2.1.0: Compatible
+Plugin android.template.helper:2.1.0 against IC-252.18003.27: Compatible
+Missing dependencies:
+    module com.intellij.modules.androidstudio (optional): Dependency 'module com.intellij.modules.androidstudio (optional)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of IC-252.18003.27, JetBrains Marketplace https://plugins.jetbrains.com
+Dynamic Plugin Eligibility:
+    Plugin can probably be enabled or disabled without IDE restart
+
+Plugin android.template.helper:2.1.0 against IC-251.26094.98: Compatible
+Missing dependencies:
+    module com.intellij.modules.androidstudio (optional): Dependency 'module com.intellij.modules.androidstudio (optional)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of IC-251.26094.98, JetBrains Marketplace https://plugins.jetbrains.com
+Dynamic Plugin Eligibility:
+    Plugin can probably be enabled or disabled without IDE restart
+
+2025-05-31T20:35:04 [main] INFO  verification - Total time spent downloading plugins and their dependencies: 0 ms
+2025-05-31T20:35:04 [main] INFO  verification - Total amount of plugins and dependencies downloaded: 0 B
+2025-05-31T20:35:04 [main] INFO  verification - Total amount of space used for plugins and dependencies: 1.87 GB
+2025-05-31T20:35:04 [main] INFO  verification - Verification reports for android.template.helper:2.1.0 saved to /Users/zachtang/programming/intellij-platform-plugin-template/build/reports/pluginVerifier/IC-252.18003.27
+2025-05-31T20:35:04 [main] INFO  verification - Verification reports for android.template.helper:2.1.0 saved to /Users/zachtang/programming/intellij-platform-plugin-template/build/reports/pluginVerifier/IC-251.26094.98
+2025-05-31T20:35:04 [main] INFO  verification - Total time spent in plugin verification: 1 m 5 s 557 ms
+
+BUILD SUCCESSFUL in 1m 16s
+15 actionable tasks: 2 executed, 13 up-to-date
+Configuration cache entry reused.
+intellij-platform-plugin-template $
+
+
