@@ -1,8 +1,12 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>org.jetbrains.plugins.template</id>
-    <name>IntelliJ Platform Plugin Template</name>
+    <id>android.template.helper</id>
+    <name>Android Template</name>
     <vendor>JetBrains</vendor>
+
+    <depends optional="true" config-file="androidmodules.xml">com.intellij.modules.all</depends>
+    <depends optional="true" config-file="android.xml">org.jetbrains.android</depends>
+    <depends optional="true" config-file="comandroid.xml">com.android</depends>
 
     <depends>com.intellij.modules.platform</depends>
 
