@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>android.template.helper</id>
     <name>Android Template</name>
-    <vendor>JetBrains</vendor>
+    <vendor>zdtango</vendor>
 
     <depends optional="true" config-file="androidmodules.xml">com.intellij.modules.all</depends>
     <depends optional="true" config-file="android.xml">org.jetbrains.android</depends>
@@ -13,7 +13,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="org.jetbrains.plugins.template.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="org.jetbrains.plugins.template.startup.MyProjectActivity" />
+        <toolWindow factoryClass="com.github.zdtango.androidverifierexample.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <postStartupActivity implementation="com.github.zdtango.androidverifierexample.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>
